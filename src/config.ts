@@ -5,8 +5,9 @@ export const siteConfig = {
     "Olga Torres Ruiz — Creadora de Soul Paint, una metodología artística que combina pintura, danza y performance. Arte-terapia y talleres creativos en México.",
 
   // 2-color system: accent (primary brand) + highlight (warm CTAs)
-  accentColor: "#1a1a1a",
-  highlightColor: "#D4785C",
+  // Editorial minimalista: blanco roto + negro + dorado mate
+  accentColor: "#111111",
+  highlightColor: "#B8956A",
 
   // Hero stats (3 max, short labels)
   stats: [
@@ -16,7 +17,7 @@ export const siteConfig = {
   ],
 
   // Hero tagline (short, impactful)
-  tagline: "Soul Paint — Arte que sana, transforma y libera.",
+  tagline: "Valiente Huella · Art · Emotion · Ritual",
 
   social: {
     email: "valientehuella@gmail.com",

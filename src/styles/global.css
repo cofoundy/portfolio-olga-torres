@@ -15,12 +15,16 @@
 }
 
 body {
-  font-family: 'Source Sans 3', 'Source Sans Pro', sans-serif;
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, sans-serif;
   overflow-x: hidden;
+  background-color: #faf7f2;
+  color: #111111;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Libre Baskerville', Georgia, serif;
+  font-family: 'Playfair Display', 'Didot', Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
 }
 
 html {
