@@ -70,9 +70,9 @@ export const siteConfig = {
 
   // Wear the Art (3 productos)
   wear: [
-    { name: "No Mires Atrás", type: "Camiseta edición limitada", price: "$518.18" },
-    { name: "Todo Te Ve",     type: "Print logo ritual",        price: "$247.03" },
-    { name: "Flor de Mayo",   type: "Obra enmarcada",            price: "$529.25" },
+    { name: "No Mires Atrás", image: "wear-camiseta.jpeg", type: "Camiseta edición limitada", price: "$518.18" },
+    { name: "Todo Te Ve",     image: "wear-logo.jpeg",     type: "Print logo ritual",        price: "$247.03" },
+    { name: "Flor de Mayo",   image: "wear-cuadro.jpeg",   type: "Obra enmarcada",            price: "$529.25" },
   ],
 
   // Trayectoria

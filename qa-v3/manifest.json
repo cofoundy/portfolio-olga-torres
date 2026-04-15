@@ -1,0 +1,102 @@
+{
+  "url": "https://olga-torres.cofoundy.dev",
+  "timestamp": "2026-04-15T15:16:18.283Z",
+  "desktop": {
+    "viewport": {
+      "width": 1280,
+      "height": 900
+    },
+    "full": {
+      "file": "desktop-full.png",
+      "fileSize": "1704KB"
+    },
+    "sections": [
+      {
+        "file": "desktop-hero.png",
+        "section": "hero",
+        "height": 1062,
+        "fileSize": "415KB"
+      },
+      {
+        "file": "desktop-collection.png",
+        "section": "collection",
+        "height": 1027,
+        "fileSize": "647KB"
+      },
+      {
+        "file": "desktop-experience.png",
+        "section": "experience",
+        "height": 840,
+        "fileSize": "175KB"
+      },
+      {
+        "file": "desktop-wear.png",
+        "section": "wear",
+        "height": 829,
+        "fileSize": "212KB"
+      },
+      {
+        "file": "desktop-about.png",
+        "section": "about",
+        "height": 834,
+        "fileSize": "233KB"
+      },
+      {
+        "file": "desktop-footer-5.png",
+        "section": "footer-5",
+        "height": 205,
+        "fileSize": "12KB"
+      }
+    ],
+    "pageHeight": 4865
+  },
+  "mobile": {
+    "viewport": {
+      "width": 375,
+      "height": 812
+    },
+    "full": {
+      "file": "mobile-full.png",
+      "fileSize": "572KB"
+    },
+    "sections": [
+      {
+        "file": "mobile-hero.png",
+        "section": "hero",
+        "height": 669,
+        "fileSize": "85KB"
+      },
+      {
+        "file": "mobile-collection.png",
+        "section": "collection",
+        "height": 661,
+        "fileSize": "166KB"
+      },
+      {
+        "file": "mobile-experience.png",
+        "section": "experience",
+        "height": 974,
+        "fileSize": "111KB"
+      },
+      {
+        "file": "mobile-wear.png",
+        "section": "wear",
+        "height": 518,
+        "fileSize": "53KB"
+      },
+      {
+        "file": "mobile-about.png",
+        "section": "about",
+        "height": 1098,
+        "fileSize": "142KB"
+      },
+      {
+        "file": "mobile-footer-5.png",
+        "section": "footer-5",
+        "height": 269,
+        "fileSize": "11KB"
+      }
+    ],
+    "pageHeight": 4253
+  }
+}
