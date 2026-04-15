@@ -2,7 +2,7 @@
 import { siteConfig } from "../config";
 ---
 
-<section id="hero" class="relative pt-20 pb-14 md:pt-28 md:pb-20 bg-transparent">
+<section id="hero" class="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-transparent">
   <div class="max-w-5xl mx-auto px-6 lg:px-8 text-center">
 
     <h1
@@ -26,18 +26,13 @@ import { siteConfig } from "../config";
       {siteConfig.heroBrand}
     </p>
 
-    <!-- Hero image: Olga saltando con cuadro -->
-    <div class="hero-cta mt-10 mx-auto max-w-3xl">
-      <img
-        src={`${import.meta.env.BASE_URL}assets/hero-jump.jpeg`}
-        alt="Soul Paint — Olga Torres performance"
-        class="w-full h-auto"
-        loading="eager"
-      />
-    </div>
+    <div
+      class="mx-auto mt-10 h-px w-24"
+      style={`background-color: ${siteConfig.accentColor}30`}
+    ></div>
 
     <p
-      class="hero-stats mt-10 font-serif text-3xl md:text-4xl lg:text-5xl"
+      class="hero-cta mt-10 font-serif text-3xl md:text-4xl lg:text-5xl"
       style={`color: ${siteConfig.accentColor};`}
     >
       {siteConfig.heroQuote}
@@ -46,13 +41,13 @@ import { siteConfig } from "../config";
     </p>
 
     <p
-      class="mt-10 text-xs md:text-sm uppercase"
+      class="hero-social mt-12 text-xs md:text-sm uppercase"
       style={`color: ${siteConfig.highlightColor}; letter-spacing: 0.35em;`}
     >
       {siteConfig.heroMotif}
     </p>
 
-    <div class="mt-12 flex flex-wrap justify-center gap-5 md:gap-10 text-sm md:text-base font-serif italic">
+    <div class="hero-stats mt-14 flex flex-wrap justify-center gap-6 md:gap-10 text-sm md:text-base font-serif italic">
       <a href="#collection" class="link-underline" style={`color: ${siteConfig.accentColor}`}>Art Collection</a>
       <span style={`color: ${siteConfig.accentColor}40`}>|</span>
       <a href="#experience" class="link-underline" style={`color: ${siteConfig.highlightColor}`}>Live the Experience</a>
