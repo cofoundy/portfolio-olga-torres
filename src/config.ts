@@ -27,6 +27,8 @@ export const siteConfig = {
 
   social: {
     email: "valientehuella@gmail.com",
+    phone: "+34 645 715 447",
+    whatsapp: "https://wa.me/34645715447",
     instagram: "https://instagram.com/olga_torres_valiente_huella",
     twitter: "https://x.com/valientehuella",
   },
@@ -69,10 +71,73 @@ export const siteConfig = {
   ],
 
   // Wear the Art (3 productos)
-  wear: [
-    { name: "No Mires Atrás", image: "wear-camiseta.jpeg", type: "Camiseta edición limitada", price: "$518.18" },
-    { name: "Todo Te Ve",     image: "logo-eye.jpeg",      type: "Print logo ritual",        price: "$247.03" },
-    { name: "Flor de Mayo",   image: "wear-cuadro.jpeg",   type: "Obra enmarcada",            price: "$529.25" },
+  // Workshops Soul Paint (del Dossier oficial)
+  workshopTagline: "Hacer de tus dificultades una obra de arte.",
+  workshopObjectives: [
+    "Lograr deshacernos de corazas, barreras e inseguridades internas mediante la pintura, la danza y el movimiento corporal.",
+    "Aprender a identificar y verbalizar sentimientos a través de la pintura.",
+    "Conectar con una pareja, un amigo o un desconocido sin tener que hablar — solo mediante el contacto, la energía y la pintura.",
+    "Llegar al fondo de un conflicto interno, entender su origen, y trabajar desde donde se generan las emociones.",
+  ],
+  workshops: [
+    {
+      name: "Masterclass Grupal",
+      description: "1 sesión completa · materiales · catarsis · material audiovisual · obsequio Valiente Huella",
+      meta: "Grupos de 5 a 8 personas",
+      price: "Desde 250€",
+      priceNote: "por alumno · por sesión",
+    },
+    {
+      name: "Masterclass Individual",
+      description: "Experiencia personal completa · materiales · catarsis · material audiovisual · obsequio Valiente Huella",
+      meta: "Uno a uno con la artista",
+      price: "Desde 350€",
+      priceNote: "por alumno · por sesión",
+    },
+    {
+      name: "Masterclass Pareja",
+      description: "Sesión diseñada para dos · materiales · catarsis · material audiovisual · obsequio Valiente Huella",
+      meta: "Experiencia compartida",
+      price: "Desde 500€",
+      priceNote: "por pareja · por sesión",
+    },
+    {
+      name: "Curso Completo Soul Paint",
+      description: "4 sesiones semanales · materiales · evento de clausura · tu propio cuadro · análisis de tu obra · obsequio Valiente Huella",
+      meta: "Inmersión total",
+      price: "Desde 1000€",
+      priceNote: "por alumno · por curso",
+    },
+    {
+      name: "Coaching & Mentoría",
+      description: "Consultoría y planificación de objetivos · seguimiento personalizado · 1 sesión completa",
+      meta: "Acompañamiento individual",
+      price: "A determinar",
+      priceNote: "según necesidad",
+    },
+  ],
+  workshopHow: {
+    title: "¿Cómo funciona?",
+    intro: "Entraremos en conflicto mediante la música, los movimientos corporales y la respiración. Una vez conducidos a un ambiente orgánico y creativo, empezaremos la dinámica y nos mezclaremos con la pintura. Entraremos en una catarsis guiada.",
+    catarsis: "Una vez superada la catarsis, entraremos en un estado de relajación y podremos contemplar nuestra energía plasmada en la obra, entendiendo mucho mejor nuestras dificultades y emociones más internas.",
+  },
+  workshopWhy: [
+    {
+      title: "Gente Valiente",
+      text: "Que se atreve a entrar en conexión con uno mismo, desinhibirse sin complejos y crecer como persona.",
+    },
+    {
+      title: "Dispuesta a dejar huella",
+      text: "Nuestro ADN entra en contacto directo con la pintura y el movimiento corporal. Si somos honestos, veremos nuestros sentimientos plasmados en el lienzo.",
+    },
+    {
+      title: "Tu obra",
+      text: "Además de disfrutar los beneficios del proceso y la técnica, te llevarás tu propia obra hecha con tus sentimientos.",
+    },
+    {
+      title: "Tu huella",
+      text: "Aprenderás a interpretar tus movimientos, trazos y colores. Una vez entendamos tu huella, sabremos dónde hay que trabajar para liberarnos de cargas emocionales.",
+    },
   ],
 
   // Trayectoria
