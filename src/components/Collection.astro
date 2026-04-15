@@ -3,7 +3,7 @@ import { siteConfig } from "../config";
 ---
 
 <section id="collection" class="py-20 md:py-28 bg-transparent">
-  <div class="max-w-3xl mx-auto px-6 lg:px-8 text-center">
+  <div class="max-w-5xl mx-auto px-6 lg:px-8 text-center">
     <h2
       class="font-serif uppercase tracking-[0.25em] text-2xl md:text-3xl"
       style={`color: ${siteConfig.highlightColor}; font-weight: 500;`}
@@ -18,20 +18,32 @@ import { siteConfig } from "../config";
     </p>
     <div
       class="mx-auto mt-6 h-px w-16"
-      style={`background-color: ${siteConfig.accentColor}30`}
+      style={`background-color: ${siteConfig.accentColor}20`}
     ></div>
 
-    <div class="mt-12 reveal">
-      <img
-        src={`${import.meta.env.BASE_URL}assets/collection-final.jpeg`}
-        alt="Art Collection — No Mires Atrás, El Río Suena, Mar y Tierra, Gente Urbana, Sole, Miradas Tristes"
-        class="w-full h-auto mx-auto"
-        loading="lazy"
-      />
+    <div class="mt-16 grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12">
+      {siteConfig.collection.map((piece, i) => (
+        <div class={`reveal stagger-${(i % 5) + 1} text-center`}>
+          <div class="aspect-square w-full overflow-hidden">
+            <img
+              src={`${import.meta.env.BASE_URL}assets/${piece.image}`}
+              alt={piece.name}
+              class="w-full h-full object-cover card-hover"
+              loading="lazy"
+            />
+          </div>
+          <p
+            class="mt-4 font-serif text-base md:text-lg"
+            style={`color: ${siteConfig.accentColor}`}
+          >
+            {piece.name}
+          </p>
+        </div>
+      ))}
     </div>
 
     <p
-      class="mt-12 font-serif italic text-base md:text-lg"
+      class="mt-16 font-serif italic text-base md:text-lg"
       style={`color: ${siteConfig.accentColor}99`}
     >
       Cada obra nace de una emoción. Cada color, de un instante vivido.

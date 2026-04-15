@@ -36,12 +36,12 @@ export const siteConfig = {
 
   // Art Collection (6 obras)
   collection: [
-    { name: "No Mires Atrás", palette: ["#2B3A5E", "#D4785C", "#E8C8A0"] },
-    { name: "El Río Suena",   palette: ["#4A6B5E", "#A8C4A2", "#E8E4D6"] },
-    { name: "Mar y Tierra",   palette: ["#1E3A52", "#6B8DA5", "#E0D4A8"] },
-    { name: "Gente Urbana",   palette: ["#3A1E2E", "#C04868", "#E4C8B0"] },
-    { name: "Sole",           palette: ["#0F1F2E", "#4A6B7A", "#D4A878"] },
-    { name: "Miradas Tristes", palette: ["#2E2A3A", "#8A7A9A", "#D8CCD4"] },
+    { name: "No Mires Atrás",  image: "obra-1.jpeg" },
+    { name: "El Río Suena",    image: "obra-2.jpeg" },
+    { name: "Mar y Tierra",    image: "obra-mar-tierra.jpeg" },
+    { name: "Gente Urbana",    image: "obra-3.jpeg" },
+    { name: "Sole",            image: "obra-sole.jpeg" },
+    { name: "Miradas Tristes", image: "obra-4.jpeg" },
   ],
 
   // Live the Experience (4 pasos del PDF)
@@ -71,7 +71,7 @@ export const siteConfig = {
   // Wear the Art (3 productos)
   wear: [
     { name: "No Mires Atrás", image: "wear-camiseta.jpeg", type: "Camiseta edición limitada", price: "$518.18" },
-    { name: "Todo Te Ve",     image: "wear-logo.jpeg",     type: "Print logo ritual",        price: "$247.03" },
+    { name: "Todo Te Ve",     image: "logo-eye.jpeg",      type: "Print logo ritual",        price: "$247.03" },
     { name: "Flor de Mayo",   image: "wear-cuadro.jpeg",   type: "Obra enmarcada",            price: "$529.25" },
   ],
 
