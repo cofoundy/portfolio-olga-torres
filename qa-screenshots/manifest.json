@@ -1,6 +1,6 @@
 {
   "url": "https://olga-torres.cofoundy.dev",
-  "timestamp": "2026-04-14T23:28:05.954Z",
+  "timestamp": "2026-04-14T23:57:52.919Z",
   "desktop": {
     "viewport": {
       "width": 1280,
@@ -8,47 +8,47 @@
     },
     "full": {
       "file": "desktop-full.png",
-      "fileSize": "408KB"
+      "fileSize": "520KB"
     },
     "sections": [
       {
         "file": "desktop-hero.png",
         "section": "hero",
-        "height": 625,
-        "fileSize": "81KB"
+        "height": 725,
+        "fileSize": "47KB"
       },
       {
-        "file": "desktop-about.png",
-        "section": "about",
-        "height": 497,
-        "fileSize": "76KB"
-      },
-      {
-        "file": "desktop-projects.png",
-        "section": "projects",
-        "height": 824,
-        "fileSize": "82KB"
+        "file": "desktop-collection.png",
+        "section": "collection",
+        "height": 1177,
+        "fileSize": "180KB"
       },
       {
         "file": "desktop-experience.png",
         "section": "experience",
-        "height": 810,
-        "fileSize": "107KB"
+        "height": 856,
+        "fileSize": "54KB"
       },
       {
-        "file": "desktop-education.png",
-        "section": "education",
-        "height": 366,
-        "fileSize": "32KB"
+        "file": "desktop-wear.png",
+        "section": "wear",
+        "height": 938,
+        "fileSize": "130KB"
+      },
+      {
+        "file": "desktop-about.png",
+        "section": "about",
+        "height": 680,
+        "fileSize": "72KB"
       },
       {
         "file": "desktop-footer-5.png",
         "section": "footer-5",
         "height": 205,
-        "fileSize": "15KB"
+        "fileSize": "13KB"
       }
     ],
-    "pageHeight": 3355
+    "pageHeight": 4589
   },
   "mobile": {
     "viewport": {
@@ -57,46 +57,46 @@
     },
     "full": {
       "file": "mobile-full.png",
-      "fileSize": "344KB"
+      "fileSize": "437KB"
     },
     "sections": [
       {
         "file": "mobile-hero.png",
         "section": "hero",
-        "height": 767,
-        "fileSize": "42KB"
+        "height": 617,
+        "fileSize": "29KB"
       },
       {
-        "file": "mobile-about.png",
-        "section": "about",
-        "height": 967,
-        "fileSize": "71KB"
-      },
-      {
-        "file": "mobile-projects.png",
-        "section": "projects",
-        "height": 1405,
-        "fileSize": "82KB"
+        "file": "mobile-collection.png",
+        "section": "collection",
+        "height": 1044,
+        "fileSize": "45KB"
       },
       {
         "file": "mobile-experience.png",
         "section": "experience",
-        "height": 1122,
-        "fileSize": "93KB"
+        "height": 2614,
+        "fileSize": "69KB"
       },
       {
-        "file": "mobile-education.png",
-        "section": "education",
-        "height": 536,
-        "fileSize": "36KB"
+        "file": "mobile-wear.png",
+        "section": "wear",
+        "height": 2069,
+        "fileSize": "224KB"
+      },
+      {
+        "file": "mobile-about.png",
+        "section": "about",
+        "height": 796,
+        "fileSize": "54KB"
       },
       {
         "file": "mobile-footer-5.png",
         "section": "footer-5",
-        "height": 285,
-        "fileSize": "13KB"
+        "height": 269,
+        "fileSize": "11KB"
       }
     ],
-    "pageHeight": 5110
+    "pageHeight": 7417
   }
 }
