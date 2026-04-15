@@ -2,7 +2,25 @@
 import { siteConfig } from "../config";
 ---
 
-<section id="hero" class="relative pt-24 pb-16 md:pt-32 md:pb-24 bg-transparent">
+<!-- Top nav bar minimal -->
+<nav class="w-full py-5 px-6 lg:px-12 bg-transparent">
+  <div class="max-w-6xl mx-auto flex items-center justify-between text-xs md:text-sm">
+    <span
+      class="font-serif uppercase tracking-[0.3em]"
+      style={`color: ${siteConfig.highlightColor};`}
+    >
+      Soul Paint
+    </span>
+    <div class="hidden md:flex items-center gap-7 font-serif" style={`color: ${siteConfig.accentColor};`}>
+      <a href="#hero" class="link-underline">Home</a>
+      <a href="#collection" class="link-underline">Art Collection</a>
+      <a href="#experience" class="link-underline" style={`color: ${siteConfig.highlightColor};`}>Live the Experience</a>
+      <a href="#wear" class="link-underline">Wear the Art</a>
+    </div>
+  </div>
+</nav>
+
+<section id="hero" class="relative pt-8 pb-16 md:pt-10 md:pb-24 bg-transparent">
   <div class="max-w-5xl mx-auto px-6 lg:px-8 text-center">
 
     <h1
@@ -13,7 +31,7 @@ import { siteConfig } from "../config";
     </h1>
 
     <p
-      class="hero-subtitle font-serif mt-4 text-2xl md:text-3xl"
+      class="hero-subtitle font-serif mt-3 text-2xl md:text-3xl"
       style={`color: ${siteConfig.accentColor}; letter-spacing: 0.05em;`}
     >
       {siteConfig.heroSubtitle}
@@ -21,18 +39,23 @@ import { siteConfig } from "../config";
 
     <p
       class="hero-description mt-2 text-xs md:text-sm uppercase"
-      style={`color: ${siteConfig.accentColor}99; letter-spacing: 0.3em;`}
+      style={`color: ${siteConfig.highlightColor}99; letter-spacing: 0.3em;`}
     >
       {siteConfig.heroBrand}
     </p>
 
-    <div
-      class="mx-auto mt-10 h-px w-24"
-      style={`background-color: ${siteConfig.accentColor}30`}
-    ></div>
+    <!-- Hero image: Olga saltando -->
+    <div class="hero-cta mt-10 md:mt-14 mx-auto">
+      <img
+        src={`${import.meta.env.BASE_URL}assets/hero-jump-clean.jpeg`}
+        alt="Olga Torres — Soul Paint performance"
+        class="w-full h-auto"
+        loading="eager"
+      />
+    </div>
 
     <p
-      class="hero-cta mt-10 font-serif text-3xl md:text-4xl lg:text-5xl"
+      class="hero-stats mt-12 md:mt-16 font-serif text-3xl md:text-4xl lg:text-5xl leading-snug"
       style={`color: ${siteConfig.accentColor};`}
     >
       {siteConfig.heroQuote}
@@ -41,16 +64,16 @@ import { siteConfig } from "../config";
     </p>
 
     <p
-      class="hero-social mt-12 text-xs md:text-sm uppercase"
+      class="hero-social mt-10 text-xs md:text-sm uppercase"
       style={`color: ${siteConfig.highlightColor}; letter-spacing: 0.35em;`}
     >
       {siteConfig.heroMotif}
     </p>
 
-    <div class="hero-stats mt-14 flex flex-wrap justify-center gap-6 md:gap-10 text-sm md:text-base font-serif italic">
+    <div class="mt-10 flex flex-wrap justify-center gap-5 md:gap-10 text-sm md:text-base font-serif italic">
       <a href="#collection" class="link-underline" style={`color: ${siteConfig.accentColor}`}>Art Collection</a>
       <span style={`color: ${siteConfig.accentColor}40`}>|</span>
-      <a href="#experience" class="link-underline" style={`color: ${siteConfig.highlightColor}`}>Live the Experience</a>
+      <a href="#experience" class="link-underline" style={`color: ${siteConfig.highlightColor}; border-bottom: 1px solid ${siteConfig.highlightColor}; padding-bottom: 2px;`}>Live the Experience</a>
       <span style={`color: ${siteConfig.accentColor}40`}>|</span>
       <a href="#wear" class="link-underline" style={`color: ${siteConfig.accentColor}`}>Wear the Art</a>
     </div>

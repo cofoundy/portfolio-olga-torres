@@ -3,40 +3,66 @@ import { siteConfig } from "../config";
 ---
 
 <section id="about" class="py-20 md:py-28 bg-transparent">
-  <div class="max-w-3xl mx-auto px-6 lg:px-8 text-center">
-    <h2
-      class="font-serif uppercase tracking-[0.25em] text-2xl md:text-3xl"
-      style={`color: ${siteConfig.accentColor}; font-weight: 500;`}
-    >
-      La Artista
-    </h2>
-    <div
-      class="mx-auto mt-6 h-px w-16"
-      style={`background-color: ${siteConfig.highlightColor}`}
-    ></div>
-
-    <p
-      class="mt-10 font-serif italic text-2xl md:text-3xl leading-snug"
-      style={`color: ${siteConfig.accentColor}`}
-    >
-      "La catarsis que se convierte en arte."
-    </p>
-
-    <p
-      class="mt-10 text-base md:text-lg leading-relaxed"
-      style={`color: ${siteConfig.accentColor}CC`}
-    >
-      {siteConfig.aboutMe}
-    </p>
-
-    {siteConfig.social?.email && (
-      <a
-        href={`mailto:${siteConfig.social.email}`}
-        class="inline-block mt-10 pb-1 font-serif italic text-base border-b link-underline"
-        style={`color: ${siteConfig.highlightColor}; border-color: ${siteConfig.highlightColor}`}
+  <div class="max-w-5xl mx-auto px-6 lg:px-8">
+    <div class="text-center">
+      <h2
+        class="font-serif uppercase tracking-[0.25em] text-2xl md:text-3xl"
+        style={`color: ${siteConfig.accentColor}; font-weight: 500;`}
       >
-        Reserva una experiencia →
-      </a>
-    )}
+        La Artista
+      </h2>
+      <div
+        class="mx-auto mt-6 h-px w-16"
+        style={`background-color: ${siteConfig.highlightColor}`}
+      ></div>
+    </div>
+
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
+      <div class="reveal-left">
+        <img
+          src={`${import.meta.env.BASE_URL}assets/catarsis-clean.jpeg`}
+          alt="Olga Torres — La catarsis que se convierte en arte"
+          class="w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+      <div class="reveal-right text-center md:text-left">
+        <p
+          class="font-serif italic text-2xl md:text-3xl leading-snug"
+          style={`color: ${siteConfig.accentColor}`}
+        >
+          "La catarsis que se convierte en arte."
+        </p>
+
+        <div
+          class="mt-6 mx-auto md:mx-0 h-px w-16"
+          style={`background-color: ${siteConfig.highlightColor}`}
+        ></div>
+
+        <p
+          class="mt-6 text-base leading-relaxed"
+          style={`color: ${siteConfig.accentColor}CC`}
+        >
+          {siteConfig.aboutMe}
+        </p>
+
+        <p
+          class="mt-6 font-serif italic text-base"
+          style={`color: ${siteConfig.highlightColor}`}
+        >
+          Soul Paint no se aprende. Se vive.
+        </p>
+
+        {siteConfig.social?.email && (
+          <a
+            href={`mailto:${siteConfig.social.email}`}
+            class="inline-block mt-8 pb-1 font-serif italic text-base border-b link-underline"
+            style={`color: ${siteConfig.highlightColor}; border-color: ${siteConfig.highlightColor}`}
+          >
+            Reserva una experiencia →
+          </a>
+        )}
+      </div>
+    </div>
   </div>
 </section>
