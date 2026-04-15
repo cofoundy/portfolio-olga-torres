@@ -1,6 +1,6 @@
 {
   "url": "https://olga-torres.cofoundy.dev",
-  "timestamp": "2026-04-15T01:17:49.862Z",
+  "timestamp": "2026-04-15T01:42:08.025Z",
   "desktop": {
     "viewport": {
       "width": 1280,
@@ -8,14 +8,14 @@
     },
     "full": {
       "file": "desktop-full.png",
-      "fileSize": "2265KB"
+      "fileSize": "1502KB"
     },
     "sections": [
       {
         "file": "desktop-hero.png",
         "section": "hero",
-        "height": 1828,
-        "fileSize": "462KB"
+        "height": 725,
+        "fileSize": "47KB"
       },
       {
         "file": "desktop-collection.png",
@@ -32,14 +32,14 @@
       {
         "file": "desktop-wear.png",
         "section": "wear",
-        "height": 1582,
-        "fileSize": "350KB"
+        "height": 938,
+        "fileSize": "130KB"
       },
       {
         "file": "desktop-about.png",
         "section": "about",
-        "height": 909,
-        "fileSize": "229KB"
+        "height": 680,
+        "fileSize": "72KB"
       },
       {
         "file": "desktop-footer-5.png",
@@ -48,7 +48,7 @@
         "fileSize": "13KB"
       }
     ],
-    "pageHeight": 7113
+    "pageHeight": 5137
   },
   "mobile": {
     "viewport": {
@@ -57,14 +57,14 @@
     },
     "full": {
       "file": "mobile-full.png",
-      "fileSize": "688KB"
+      "fileSize": "587KB"
     },
     "sections": [
       {
         "file": "mobile-hero.png",
         "section": "hero",
-        "height": 1063,
-        "fileSize": "129KB"
+        "height": 617,
+        "fileSize": "29KB"
       },
       {
         "file": "mobile-collection.png",
@@ -81,14 +81,14 @@
       {
         "file": "mobile-wear.png",
         "section": "wear",
-        "height": 1077,
-        "fileSize": "103KB"
+        "height": 2069,
+        "fileSize": "224KB"
       },
       {
         "file": "mobile-about.png",
         "section": "about",
-        "height": 1319,
-        "fileSize": "169KB"
+        "height": 796,
+        "fileSize": "54KB"
       },
       {
         "file": "mobile-footer-5.png",
@@ -97,6 +97,6 @@
         "fileSize": "11KB"
       }
     ],
-    "pageHeight": 5658
+    "pageHeight": 5682
   }
 }
